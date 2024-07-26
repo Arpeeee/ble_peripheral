@@ -1,0 +1,411 @@
+﻿  ble_console.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\charconv(12): warning STL4038: The contents of <charconv> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\optional(11): warning STL4038: The contents of <optional> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\WindowsNumerics.impl.h(36,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\WindowsNumerics.inl(137,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(74,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(159,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(359,48): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(393,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(454,27): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(507,27): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(538,9): warning C4984: 'if constexpr' 是 C++17 的語言延伸模組
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(596,27): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(622,28): warning C5051: 屬性 [[maybe_unused]] 至少需要 '/std:c++17'; 已忽略
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(622,28):
+  範本具現化內容 (首先是最舊的) 是
+  	C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(619,12):
+  	編譯類別範本部分特殊化 'winrt::impl::for_each<winrt::impl::typelist<Types...>>' 時
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(624,36): error C7518: 摺疊運算式至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(622,21):
+  這項診斷發生在編譯器產生的函式 'auto winrt::impl::for_each<winrt::impl::typelist<Types...>>::apply(Func &&)' 中
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(635,28): warning C5051: 屬性 [[maybe_unused]] 至少需要 '/std:c++17'; 已忽略
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(635,28):
+  範本具現化內容 (首先是最舊的) 是
+  	C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(632,12):
+  	編譯類別範本部分特殊化 'winrt::impl::find_if<winrt::impl::typelist<Types...>>' 時
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(637,38): error C7518: 摺疊運算式至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(635,21):
+  這項診斷發生在編譯器產生的函式 'bool winrt::impl::find_if<winrt::impl::typelist<Types...>>::apply(Func &&)' 中
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(656,41): error C7518: 摺疊運算式至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(663,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(690,10): warning C5051: 屬性 [[maybe_unused]] 至少需要 '/std:c++17'; 已忽略
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(691,10): warning C5051: 屬性 [[maybe_unused]] 至少需要 '/std:c++17'; 已忽略
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(731,9): warning C4984: 'if constexpr' 是 C++17 的語言延伸模組
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(774,9): warning C4984: 'if constexpr' 是 C++17 的語言延伸模組
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(879,28): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1019,70): warning C5051: 屬性 [[maybe_unused]] 至少需要 '/std:c++17'; 已忽略
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1019,127): warning C5051: 屬性 [[maybe_unused]] 至少需要 '/std:c++17'; 已忽略
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1046,9): warning C4984: 'if constexpr' 是 C++17 的語言延伸模組
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1050,14): warning C4984: 'if constexpr' 是 C++17 的語言延伸模組
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1416,20): error C2039: 'wstring_view': 並非 'std' 的成員
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\experimental\coroutine(50,1):
+  請參閱 'std' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1416,33): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1416,33): error C2061: 語法錯誤: 識別項 'to_wstring_view'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1417,5): error C2143: 語法錯誤: 遺漏 ';' (在 '{' 之前)
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1417,5): error C2447: '{': 遺漏函式標頭 (舊樣式型式清單?)
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1422,20): error C2039: 'wstring_view': 並非 'std' 的成員
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\experimental\coroutine(50,1):
+  請參閱 'std' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1422,33): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1422,20): error C2374: 'winrt::impl::wstring_view': 重複定義; 多個初始設定
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1422,33): error C2061: 語法錯誤: 識別項 'to_wstring_view'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1423,5): error C2143: 語法錯誤: 遺漏 ';' (在 '{' 之前)
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1423,5): error C2447: '{': 遺漏函式標頭 (舊樣式型式清單?)
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1433,22): error C2039: 'to_wstring_view': 並非 'winrt::impl' 的成員
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(662,11):
+  請參閱 'winrt::impl' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1674,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1675,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1676,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1677,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1678,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1679,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1680,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1681,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1682,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1683,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1684,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1685,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1686,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1687,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1688,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1689,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1690,30): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1864,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(1981,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2113,9): warning C4984: 'if constexpr' 是 C++17 的語言延伸模組
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2210,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2576,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2658,31): error C2039: 'wstring_view': 並非 'std' 的成員
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\experimental\coroutine(50,1):
+  請參閱 'std' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2658,31): error C2061: 語法錯誤: 識別項 'wstring_view'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2658,9): error C2382: 'winrt::hstring::hstring': 重複定義; 不同的例外狀況規格
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2626,9):
+  請參閱 'winrt::hstring::hstring' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2662,33): error C2039: 'wstring_view': 並非 'std' 的成員
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\experimental\coroutine(50,1):
+  請參閱 'std' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2662,33): error C2061: 語法錯誤: 識別項 'wstring_view'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2662,18): error C2805: 二元運算子 'operator =' 的參數太少
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2663,9): error C2333: 'winrt::hstring::operator =': 函式宣告發生錯誤; 略過函式主體
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2682,23): error C2039: 'wstring_view': 並非 'std' 的成員
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\experimental\coroutine(50,1):
+  請參閱 'std' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2682,23): error C2833: 'operator wstring_view' 不是可辨認的運算子或類型
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2682,35): error C2059: 語法錯誤: 'newline'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2683,9): error C2334: 在 '{' 之前有未預期的語彙基元; 略過函式主體
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2651,26): error C2039: 'wstring_view': 並非 'std' 的成員
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\experimental\coroutine(50,1):
+  請參閱 'std' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2651,26): error C3861: 'wstring_view': 找不到識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2659,21): error C2065: 'value': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2659,58): error C2065: 'value': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2819,34): error C2039: 'wstring_view': 並非 'std' 的成員
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\experimental\coroutine(50,1):
+  請參閱 'std' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2819,18): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2819,18): error C2365: 'winrt::detach_abi': 重複定義，先前的定義是 '函式'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2819,34): error C2065: 'wstring_view': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2819,47): error C2059: 語法錯誤: 'const'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2820,5): error C2143: 語法錯誤: 遺漏 ';' (在 '{' 之前)
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2820,5): error C2447: '{': 遺漏函式標頭 (舊樣式型式清單?)
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2831,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2914,13): warning C4984: 'if constexpr' 是 C++17 的語言延伸模組
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2914,13):
+  範本具現化內容 (首先是最舊的) 是
+  	C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2904,12):
+  	編譯類別範本 'winrt::impl::bind_out' 時
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2929,13): warning C4984: 'if constexpr' 是 C++17 的語言延伸模組
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2927,9):
+  這項診斷發生在編譯器產生的函式 'winrt::impl::bind_out<T>::operator R *(void) noexcept const' 中
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2944,9): warning C4984: 'if constexpr' 是 C++17 的語言延伸模組
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2943,30): error C3878: 語法錯誤: 非預期的權杖 '識別項' 出現於 'expression' 之後
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2943,30): message : 錯誤復原已略過: '識別項'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2946,13): error C2065: 'result': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2951,13): error C2065: 'result': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2953,9): error C2065: 'result': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2955,48): error C2065: 'result': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2956,42): error C2760: 語法錯誤: 此處不應有 '{'，預期的是 '}'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2956,44): error C3878: 語法錯誤: 非預期的權杖 '識別項' 出現於 'expression' 之後
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2956,44): message : 錯誤復原已略過: '識別項'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2956,50): error C2760: 語法錯誤: 此處不應有 ','，預期的是 ';'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2956,50): error C3878: 語法錯誤: 非預期的權杖 ',' 出現於 'jump_statement' 之後
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2956,50): message : 錯誤復原已略過: ','
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(2956,90): error C2760: 語法錯誤: 此處不應有 '}'，預期的是 ';'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3020,30): error C2039: 'wstring_view': 並非 'std' 的成員
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\experimental\coroutine(50,1):
+  請參閱 'std' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3020,30): error C2065: 'wstring_view': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3054,26): error C3878: 語法錯誤: 非預期的權杖 'const' 出現於 'expression' 之後
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3054,26): message : 錯誤復原已略過: 'const 識別項 (  . . . 識別項'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3054,42): error C2760: 語法錯誤: 此處不應有 ')'，預期的是 ';'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3054,42): error C3878: 語法錯誤: 非預期的權杖 ')' 出現於 'expression_statement' 之後
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3054,42): message : 錯誤復原已略過: ')'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3055,74): error C2065: 'view': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3055,108): error C2065: 'view': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3063,9): error C2065: 'view': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3067,39): error C2039: 'wstring_view': 並非 'std' 的成員
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\experimental\coroutine(50,1):
+  請參閱 'std' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3067,24): error C7525: 內嵌變數至少需要 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3067,39): error C2065: 'wstring_view': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3067,52): error C2146: 語法錯誤: 遺漏 ')' (在識別項 'value' 之前)
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3068,5): error C2143: 語法錯誤: 遺漏 ';' (在 '{' 之前)
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3068,5): error C2447: '{': 遺漏函式標頭 (舊樣式型式清單?)
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3083,1): error C2429: 語言功能 'nested-namespace-definition' 需要編譯器旗標 '/std:c++17'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3095,22): error C2039: 'wstring_view': 並非 'std' 的成員
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\experimental\coroutine(50,1):
+  請參閱 'std' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3095,22): error C2061: 語法錯誤: 識別項 'wstring_view'
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3095,9): error C2535: 'winrt::param::hstring::hstring(void) noexcept': 已經定義或宣告成員函式
+  (編譯來源檔案 'ble_console.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3086,9):
+  請參閱 'winrt::param::hstring::hstring' 的宣告
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3097,70): error C2065: 'value': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3097,106): error C2065: 'value': 未宣告的識別項
+  (編譯來源檔案 'ble_console.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt\base.h(3097,106): error C1003: 錯誤計數超過 100; 停止編譯
+  (編譯來源檔案 'ble_console.cpp')
+  
